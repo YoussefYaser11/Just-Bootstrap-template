@@ -1,0 +1,45 @@
+body{
+  background: rgb(68,58,180);
+  background: linear-gradient(90deg, rgba(68, 58, 180, 0.534) 0%, rgba(48, 29, 253, 0.507) 50%, rgba(69, 154, 252, 0.555) 100%);
+}
+.header{
+    background-image: url(../image/pexels.jpg);
+    background-size: cover;
+    height: 600px ;
+    color: rgb(249, 249, 250);
+    padding: 20px;
+}
+.imag{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.footer {
+    background-color: #093a55;
+  }
+  .footer .contact ul svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #093a55;
+  }
+  .footer ul li:hover{
+    color: rgb(12, 140, 214);
+    cursor: pointer;
+  }
+section form{
+ border: 2px dashed white;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+ background-color: #093a55;
+ color: white;
+ font-weight: bold;
+}
